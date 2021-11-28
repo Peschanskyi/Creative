@@ -1,3 +1,22 @@
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Book.eot');
+    src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+    url('../fonts/20Kopeek-Book.woff') format('woff'),
+    url('../fonts/20Kopeek-Book.ttf') format('truetype'),
+    url('../fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
+    src: url('../fonts/20Kopeek.eot');
+    src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek.woff2') format('woff2'),
+    url('../fonts/20Kopeek.woff') format('woff'),
+    url('../fonts/20Kopeek.ttf') format('truetype'),
+    url('../fonts/20Kopeek.svg#20Kopeek') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,21 +30,22 @@
     padding-top: 344px;
 }
 
-.main_banner.banner_2{
+.main_banner .banner_2{
     background-image: url("../Images/BACKGROUND 2.jpg");
 }
 
-.main_banner.banner_3{
+.main_banner .banner_3{
     background-image: url("../Images/BACKGROUND 3.jpg");
 }
 
-.main_banner.banner_4{
+.main_banner .banner_4{
     background-image: url("../Images/BACKGROUND 4.jpg");
 }
 
 .container{
     margin: auto;
     max-width: 1110px;
+    width: 100%;
 }
 
 header{
@@ -33,9 +53,10 @@ header{
     width: 100%;
     left: 0;
     top: 0;
+    padding-top: 31px;
 }
 
-header.container{
+header .container{
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +64,7 @@ header.container{
 .d_flex{
     width: 100%;
     display: flex;
-
+    justify-content: space-between;
 }
 
 header p{
@@ -67,45 +88,144 @@ header li span{
 header ul{
     list-style: none;
     display: flex;
+    padding-top: 1px;
 }
 
 header li{
     margin-left: 23px;
 }
 
-header.soc{
+header .soc{
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     width: 36px;
     height: 36px;
-
-
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
 }
 
-.main_banner.h1{
-    font-family: sans-serif;
+.main_banner h1{
+
     font-size: 55px;
     line-height: 55px;
     color: #181818;
     margin-bottom: 20px;
-
+    font-weight: normal;
 }
 
-.main_banner.p{
+.main_banner p{
     font-family: sans-serif;
     font-size: 34px;
     line-height: 37px;
     color: #181818;
     margin-bottom: 65px;
 }
-.main_banner.btn{
+.main_banner .btn{
     display: inline-block;
     text-decoration: none;
-    font-size: 55px;
-    line-height: 55px;
+    font-size: 18px;
+
     color: #181818;
     margin-right: 20px;
     padding: 23px 47px;
     border-radius: 40px;
+    background: #FFFFFF;
+}
+
+.form_style{
+    padding-top: 70px;
+}
+
+.container h3{
+    font-family: '20 Kopeek';
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.div_2_colums{
+    display: flex;
+}
+
+.div_2_colums img{
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.form_style_text{
+    margin-left: 30px;
+    max-width: 445px;
+    color: #181818;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.name_logo{
+     padding-top: 150px;
+}
+
+.name_logo h2{
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+
+.nm_5_colums p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    margin-top: 15px;
+}
+
+.nm_5_colums h3{
+    max-width: 32px;
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    margin-right: 8px;
+}
+
+.nm_5_colums {
+    display: flex;
+}
+
+.column{
+    display: flex;
+}
+
+.column:first-of-type{
+    margin-right: 67px;
+}
+
+.column:nth-child(2){
+    margin-right: 43px;
+}
+
+.column:nth-child(3){
+    margin-right: 28px;
+}
+
+.column:nth-child(4){
+    margin-right: 90px;
+}
+
+.column span{
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
 
 }
+
+
+
+
+
+
