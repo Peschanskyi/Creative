@@ -254,6 +254,7 @@ header .soc{
 .price p:last-of-type{
     background-color: #2B59C3;
     border-radius: 5px;
+    color: #FFFFFF;
 }
 
 
@@ -371,6 +372,22 @@ header .soc{
     text-decoration: none;
 }
 
+.amperia{
+    padding-top: 133px;
+}
+
+.projects img{
+    width: 100%;
+}
+
+.project_flex{
+    display: flex;
+    padding-top: 38px;
+}
+
+.project_flex{
+
+}
 
 
 
