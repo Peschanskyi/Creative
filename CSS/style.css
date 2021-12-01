@@ -119,12 +119,10 @@ header .soc{
 }
 
 .main_banner h1{
-    font-family: '20Kopeek-Book';
-    font-size: 55px;
-    line-height: 55px;
     color: #181818;
     margin-bottom: 20px;
     font-weight: normal;
+    font: 55px/55px '20Kopeek-Book';
 }
 
 .main_banner p{
@@ -306,6 +304,75 @@ header .soc{
     color: #FFFFFF;
     margin-bottom: 15px;
 }
+
+.app{
+    padding-top: 77px;
+    padding-bottom: 150px; 'temporary'
+}
+
+.app h3{
+    font-family: '20Kopeek-Book';
+    font-size: 38px;
+    line-height: 42px;
+    margin-bottom: 11px;
+}
+
+.app p{
+    font-size: 26px;
+    line-height: 29px;
+    font-family: '20Kopeek-Book';
+    margin-bottom: 27px;
+}
+
+.app input{
+    box-sizing: border-box;
+    max-width: 350px;
+    width: 100%;
+    margin-right: 30px;
+    padding: 23px 29px;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+}
+
+.app button{
+    box-sizing: border-box;
+    padding: 23px 47px;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    border-radius: 40px;
+    color: #FFFFFF;
+    background: #2B59C3;
+}
+
+.checkbox_flex{
+    display: flex;
+    padding-top: 21px;
+}
+
+.checkbox_flex input{
+    max-width: 18px;
+    width: 100%;
+    min-height: 18px;
+    height: 100%;
+    margin-top: 4px;
+    margin-right: 11px;
+}
+
+.checkbox_flex label{
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+}
+
+.checkbox_flex a{
+    text-decoration: none;
+}
+
+
+
 
 
 
