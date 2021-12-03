@@ -419,6 +419,49 @@ header .soc{
     border-radius: 40px;
 }
 
+#style_guide h2{
+    margin-bottom: 82px;
+}
+
+.style_guide_flex_block{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.style_guide_flex_block .img_text{
+    font: 26px/29px '20Kopeek-Book';
+    color: #181818;
+    width: 34%;
+}
+
+.style_guide_flex_block div:nth-child(2){
+    width: 17%;
+}
+
+.style_guide_flex_block div:nth-child(3){
+    width: 17%;
+}
+
+.style_guide_flex_block div:last-of-type{
+    width: 32%;
+}
+
+.style_guide_flex_block .img_text img{
+    margin-bottom: 23px;
+}
+
+.style_guide_flex_block .text p:last-of-type{
+    margin-top: 15px;
+    font: 15px/19px '20 Kopeek';
+    color: #181818;
+}
+
+.text last_col{
+    margin-top: 0;
+    font: 18px/25px '20 Kopeek';
+}
+
+
 
 
 
