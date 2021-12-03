@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: '20 Kopeek';
+    font-family: '20Kopeek-Book';
     src: url('../fonts/20Kopeek-Book.eot');
     src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
     url('../fonts/20Kopeek-Book.woff2') format('woff2'),
@@ -122,7 +122,10 @@ header .soc{
     color: #181818;
     margin-bottom: 20px;
     font-weight: normal;
-    font: 55px/55px '20Kopeek-Book';
+
+    font-size: 55px;
+    line-height: 55px;
+    font-family: '20Kopeek-Book';
 }
 
 .main_banner p{
@@ -165,7 +168,7 @@ header .soc{
     color: #181818;
     font-size: 18px;
     line-height: 25px;
-    font-family: '20Kopeek';
+    font-family: '20 Kopeek';
 }
 
 .form_style .text{
@@ -178,16 +181,17 @@ header .soc{
      padding-top: 150px;
 }
 
+.container h2{
+    font: 55px/55px '20Kopeek-Book';
+    color: #181818;
+}
+
 .name_logo h2{
-    font-family: '20Kopeek-Book';
-    font-weight: normal;
-    font-size: 55px;
-    line-height: 55px;
     margin-bottom: 40px;
 }
 
 .nm_5_colums p{
-    font-family: '20Kopeek';
+    font-family: '20 Kopeek';
     font-size: 18px;
     line-height: 25px;
     color: #181818;
@@ -308,7 +312,7 @@ header .soc{
 
 .app{
     padding-top: 77px;
-    padding-bottom: 150px; 'temporary'
+    padding-bottom: 150px;
 }
 
 .app h3{
@@ -321,7 +325,7 @@ header .soc{
 .app p{
     font-size: 26px;
     line-height: 29px;
-    font-family: '20Kopeek-Book';
+    font-family: '20 Kopeek';
     margin-bottom: 27px;
 }
 
@@ -335,6 +339,7 @@ header .soc{
     line-height: 25px;
     border: 1px solid #181818;
     border-radius: 10px;
+    font-family: "20 Kopeek";
 }
 
 .app button{
@@ -346,6 +351,7 @@ header .soc{
     border-radius: 40px;
     color: #FFFFFF;
     background: #2B59C3;
+    font-family: "20 Kopeek";
 }
 
 .checkbox_flex{
@@ -372,8 +378,12 @@ header .soc{
     text-decoration: none;
 }
 
-.amperia{
+#amperia{
     padding-top: 133px;
+}
+
+.projects{
+    padding-top: 100px;
 }
 
 .projects img{
@@ -381,15 +391,33 @@ header .soc{
 }
 
 .project_flex{
-    display: flex;
     padding-top: 38px;
+    display: flex;
+    font: 18px/25px '20 Kopeek';
+    color: black;
+
 }
 
-.project_flex{
-
+.project_flex div:first-of-type{
+    margin-right: 52px;
+    margin-top: 7px;
 }
 
+.project_flex div:last-of-type{
+    margin-top: 23px;
+}
 
+.projects h2{
+    margin-bottom: 4px;
+}
+
+.projects a{
+    text-decoration: none;
+    color: #181818;
+    padding: 23px 47px;
+    border: 1px solid #181818;
+    border-radius: 40px;
+}
 
 
 
