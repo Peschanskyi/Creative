@@ -186,11 +186,11 @@ header .soc{
     color: #181818;
 }
 
-.name_logo h2{
+.columns h2{
     margin-bottom: 40px;
 }
 
-.nm_5_colums p{
+.name_logo .columns_5_flex p{
     font-family: '20 Kopeek';
     font-size: 18px;
     line-height: 25px;
@@ -198,7 +198,7 @@ header .soc{
     margin-top: 25px;
 }
 
-.nm_5_colums h3{
+.columns h3{
     font-family: '20Kopeek-Book';
     font-size: 55px;
     line-height: 55px;
@@ -206,7 +206,7 @@ header .soc{
     margin-right: 8px;
 }
 
-.nm_5_colums {
+.columns_5_flex {
     display: flex;
 }
 
@@ -214,23 +214,23 @@ header .soc{
     display: flex;
 }
 
-.column:first-of-type{
+.name_logo .column:first-of-type{
     margin-right: 67px;
 }
 
-.column:nth-child(2){
+.name_logo .column:nth-child(2){
     margin-right: 43px;
 }
 
-.column:nth-child(3){
+.name_logo .column:nth-child(3){
     margin-right: 28px;
 }
 
-.column:nth-child(4){
+.name_logo .column:nth-child(4){
     margin-right: 90px;
 }
 
-.column span{
+.name_logo .column span{
     font-size: 15px;
     line-height: 19px;
     color: #181818;
@@ -316,24 +316,26 @@ header .soc{
 }
 
 .app h3{
-    font-family: '20Kopeek-Book';
-    font-size: 38px;
-    line-height: 42px;
     margin-bottom: 11px;
 }
 
+.form h3{
+    font-family: '20Kopeek-Book';
+    font-size: 38px;
+    line-height: 42px;
+}
+
 .app p{
-    font-size: 26px;
-    line-height: 29px;
-    font-family: '20 Kopeek';
     margin-bottom: 27px;
 }
 
-.app input{
+.form p{
+    font: 26px/29px '20 Kopeek';
+    font-weight: normal;
+}
+
+.form input{
     box-sizing: border-box;
-    max-width: 350px;
-    width: 100%;
-    margin-right: 30px;
     padding: 23px 29px;
     font-size: 18px;
     line-height: 25px;
@@ -342,7 +344,13 @@ header .soc{
     font-family: "20 Kopeek";
 }
 
-.app button{
+.app input{
+    max-width: 350px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.form button{
     box-sizing: border-box;
     padding: 23px 47px;
     font-size: 18px;
@@ -461,7 +469,7 @@ header .soc{
     font: 18px/25px '20 Kopeek';
 }
 
-#free_creat_sec{
+.container.free_creat{
     padding-top: 90px;
     margin-bottom: 50px;
 }
@@ -578,8 +586,72 @@ header .soc{
     border-bottom: none;
 }
 
+.quality_section{
+    background-image: url("../Images/quality_section.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 
+.quality{
+    margin-top: 150px;
+    padding-top: 282px;
+    padding-bottom: 80px;
+}
 
+.quality h2{
+    color: #FFFFFF;
+}
 
+.quality h3{
+    color: #FFFFFF;
+}
+
+.quality p{
+    color: #FFFFFF;
+    font: 15px/19px '20 Kopeek';
+    margin-top: 25px;
+}
+
+.quality .column{
+    margin-right: 28px;
+}
+
+.quality .column:last-of-type{
+    margin-right: 0;
+}
+
+.app_cont{
+    padding-top: 150px;
+    display: flex;
+}
+
+.flex_app{
+    margin-right: 103px;
+}
+
+.app_cont h3{
+    margin-bottom: 30px;
+}
+
+#name_1{
+    max-width: 445px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#phone_2{
+    max-width: 445px;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.app_cont .checkbox_flex{
+    margin-bottom: 51px;
+}
+
+.flex_cont p{
+    margin-bottom: 15px;
+}
 
 
