@@ -377,8 +377,7 @@ header .soc{
 }
 
 .checkbox_flex label{
-    font-size: 18px;
-    line-height: 25px;
+    font: 18px/25px '20 Kopeek';
     color: #181818;
 }
 
@@ -652,6 +651,49 @@ header .soc{
 
 .flex_cont p{
     margin-bottom: 15px;
+}
+
+footer{
+    padding-top: 127px;
+}
+
+footer h3{
+    margin-bottom: 14px;
+}
+
+footer p{
+    font: 18px/25px '20 Kopeek'
+}
+
+.smi_flex{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 38px;
+}
+
+.smi_column{
+    max-width: 255px;
+    width: 100%;
+    margin-right: 30px;
+    background: #2B59C3;
+    border-radius: 10px;
+
+    padding: 6px 4px 16px 8px;
+    color: #FFFFFF;
+}
+
+.smi_column:first-of-type{
+    padding-left: 13px;
+}
+
+.smi_column:last-of-type{
+    padding-left: 16px;
+    margin-right: 0;
+}
+
+.smi_column p:last-of-type{
+    margin-top: 25px;
+    font: 15px/19px '20 Kopeek';
 }
 
 
