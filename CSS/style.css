@@ -686,7 +686,6 @@ footer p{
     box-sizing: border-box;
     max-width: 255px;
     width: 100%;
-    margin-right: 30px;
     padding: 6px 4px 16px 8px;
     background: #2B59C3;
     border-radius: 10px;
@@ -699,7 +698,6 @@ footer p{
 
 .smi_column:last-of-type{
     padding-left: 16px;
-    margin-right: 0;
 }
 
 .smi_column p:last-of-type{
