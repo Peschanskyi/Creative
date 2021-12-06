@@ -375,6 +375,7 @@ header .soc{
     max-width: 18px;
     width: 100%;
     min-height: 18px;
+    border-radius: 5px;
     height: 100%;
     margin-top: 4px;
     margin-right: 11px;
